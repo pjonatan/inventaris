@@ -12,6 +12,7 @@
     	  android:background="@color/grey">
     
     	<ImageView
+    	    android:id="@+id/logo"
         	android:contentDescription="@null"
         	android:layout_marginLeft="10dp"
         	android:layout_marginTop="2dp"
@@ -19,26 +20,16 @@
 			android:layout_height="40dp"
 			android:layout_alignParentLeft="true"
 			android:src="@drawable/room1" />
-
-    	<ImageView
-    	    android:id="@+id/edit"
-        	android:contentDescription="@null"
-        	android:layout_marginRight="10dp"
-        	android:layout_marginTop="2dp"
-		    android:layout_width="40dp"
+    	
+         <TextView
+        	android:layout_marginLeft="10dp"
+        	android:layout_marginTop="10dp"
+        	android:textColor="@color/putih"
+        	android:textSize="20sp"
+		    android:layout_width="240dp"
 			android:layout_height="40dp"
-			android:layout_toLeftOf="@+id/plus"
-			android:src="@drawable/edit" />
-    	    	
-    	<ImageView
-    	    android:id="@+id/plus"
-        	android:contentDescription="@null"
-		    android:layout_width="40dp"
-		    android:layout_marginRight="10dp"
-			android:layout_marginTop="2dp"
-			android:layout_height="40dp"
-			android:layout_toLeftOf="@+id/back"
-			android:src="@drawable/plus" />
+			android:layout_toRightOf="@+id/logo"
+            android:text="@string/cari_ruang" />
 
     	<ImageView
     	    android:id="@+id/back"
@@ -50,7 +41,7 @@
 			android:layout_height="40dp"
 			android:src="@drawable/back" />
 
-    	</RelativeLayout>
+    </RelativeLayout>
     	
     <ListView 
         android:textSize="12sp" 

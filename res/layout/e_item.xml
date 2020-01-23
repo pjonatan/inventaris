@@ -1,0 +1,123 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    
+     <LinearLayout
+	      android:orientation="horizontal"
+          android:layout_width="fill_parent"
+          android:layout_height="45dp"
+    	  android:background="@color/grey">
+    	  
+         <ImageView
+    	    android:id="@+id/inv"
+        	android:contentDescription="@null"
+        	android:layout_marginLeft="10dp"
+        	android:layout_marginTop="2dp"
+		    android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:src="@drawable/inv" /> 
+        
+         <TextView
+            android:id="@+id/nm"
+        	android:layout_marginLeft="10dp"
+        	android:layout_marginTop="10dp"
+        	android:textColor="@color/putih"
+		    android:layout_width="240dp"
+			android:layout_height="40dp"
+            android:text="@string/e_item" />
+         
+        <ImageView
+    	    android:id="@+id/back"
+        	android:contentDescription="@null"
+		    android:layout_width="40dp"
+		    android:layout_marginLeft="20dp"
+			android:layout_marginTop="2dp"
+			android:layout_height="40dp"
+			android:src="@drawable/back" />
+        
+     </LinearLayout>
+     
+     <TextView
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/bblue"
+         android:textColor="@color/putih"
+		 android:paddingLeft="5dp"
+         android:textSize="25sp"
+         android:layout_marginTop="10dp"
+ 		 android:layout_width="240dp"
+		 android:layout_height="40dp"
+         android:text="@string/nm_inventaris" />
+     
+     <EditText
+         android:id="@+id/nama"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="1dp"
+         android:background="@drawable/bwhite"
+         android:textSize="16sp"
+		 android:inputType="textNoSuggestions"
+         android:textColor="@color/grey"
+ 		 android:layout_width="340dp"
+		 android:layout_height="40dp"
+		 android:paddingLeft="5dp"
+		 android:paddingTop="5dp" />
+     
+     <TextView
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/bblue"
+         android:textColor="@color/putih"
+		 android:paddingLeft="5dp"
+         android:textSize="25sp"
+         android:layout_marginTop="10dp"
+ 		 android:layout_width="240dp"
+		 android:layout_height="40dp"
+         android:text="@string/info" />
+     
+     <EditText
+         android:id="@+id/info"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="1dp"
+         android:background="@drawable/bwhite"
+         android:textSize="16sp"
+		 android:inputType="textNoSuggestions"
+         android:textColor="@color/grey"
+ 		 android:layout_width="340dp"
+		 android:layout_height="40dp"
+		 android:paddingLeft="5dp"
+		 android:paddingTop="5dp"/>
+
+     <LinearLayout
+	      android:orientation="horizontal"
+          android:layout_width="fill_parent"
+          android:layout_height="45dp"
+          android:layout_marginTop="5dp"
+    	  android:background="@color/putih">
+        
+     	<TextView
+        	android:id="@+id/ubah"
+         	android:layout_marginLeft="10dp"
+         	android:background="@drawable/ogold"
+         	android:textColor="@color/red"
+		 	android:paddingLeft="15dp"
+         	android:textSize="30sp"
+         	android:layout_marginTop="5dp"
+ 		 	android:layout_width="120dp"
+		 	android:layout_height="40dp"
+         	android:text="@string/ubah" />
+
+     	<TextView
+        	android:id="@+id/hapus"
+         	android:layout_marginLeft="10dp"
+         	android:background="@drawable/omag"
+         	android:textColor="@color/putih"
+		 	android:paddingLeft="15dp"
+         	android:textSize="30sp"
+         	android:layout_marginTop="5dp"
+ 		 	android:layout_width="120dp"
+		 	android:layout_height="40dp"
+         	android:text="@string/hapus" />
+     
+     </LinearLayout>		
+     	
+</LinearLayout>   

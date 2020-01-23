@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content">
+    
+   <LinearLayout
+	    android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/grey">
+    	
+        <ImageView
+        	android:contentDescription="@null"
+        	android:layout_marginLeft="10dp"
+        	android:layout_marginTop="2dp"
+		    android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_alignParentLeft="true"
+			android:src="@drawable/room1" />
+        
+        <TextView
+        	android:layout_marginLeft="10dp"
+        	android:layout_marginTop="10dp"
+        	android:textColor="@color/putih"
+        	android:textSize="18sp"
+		    android:layout_width="240dp"
+			android:layout_height="40dp"
+            android:text="@string/t_ruang" />
+        
+        <ImageView
+    	    android:id="@+id/back"
+        	android:contentDescription="@null"
+		    android:layout_width="40dp"
+		    android:layout_marginLeft="20dp"
+			android:layout_marginTop="2dp"
+			android:layout_height="40dp"
+			android:src="@drawable/back" />
+             
+   </LinearLayout>
+   
+     <TextView
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/bred"
+         android:textColor="@color/putih"
+		 android:paddingLeft="5dp"
+         android:textSize="25sp"
+         android:layout_marginTop="10dp"
+ 		 android:layout_width="240dp"
+		 android:layout_height="40dp"
+         android:text="@string/nm_ruangan" />
+     
+     <EditText
+         android:id="@+id/nama"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="1dp"
+         android:textSize="16sp"
+		 android:inputType="textNoSuggestions"
+ 		 android:layout_width="340dp"
+		 android:layout_height="40dp"
+		 android:paddingLeft="5dp"
+		 android:paddingTop="5dp"
+		 android:background="@drawable/bwhite"
+          />
+     
+     <TextView
+        	android:id="@+id/tambah"
+         	android:layout_marginLeft="10dp"
+         	android:background="@drawable/omag"
+         	android:textColor="@color/putih"
+		 	android:paddingLeft="15dp"
+         	android:textSize="30sp"
+         	android:layout_marginTop="5dp"
+ 		 	android:layout_width="160dp"
+		 	android:layout_height="40dp"
+         	android:text="@string/tambah" />
+     
+     <TextView
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/bblue"
+         android:textColor="@color/putih"
+		 android:paddingLeft="5dp"
+         android:textSize="25sp"
+         android:layout_marginTop="10dp"
+ 		 android:layout_width="240dp"
+		 android:layout_height="40dp"
+         android:text="@string/nm_ruangan" />
+     
+     <Spinner
+         android:id="@+id/spin1"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:spinnerMode="dropdown" />
+
+     <TextView
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/bblue"
+         android:textColor="@color/putih"
+		 android:paddingLeft="5dp"
+         android:textSize="25sp"
+         android:layout_marginTop="10dp"
+ 		 android:layout_width="240dp"
+		 android:layout_height="40dp"
+         android:text="@string/nm_inventaris" />
+     
+     <Spinner
+         android:id="@+id/spin2"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:spinnerMode="dropdown" />
+     
+     <TextView
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/bblue"
+         android:textColor="@color/putih"
+		 android:paddingLeft="5dp"
+         android:textSize="25sp"
+         android:layout_marginTop="10dp"
+ 		 android:layout_width="240dp"
+		 android:layout_height="40dp"
+         android:text="@string/jumlah" />
+     
+     <EditText
+         android:id="@+id/jumlah"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="1dp"
+         android:textSize="16sp"
+		 android:inputType="textNoSuggestions"
+ 		 android:layout_width="60dp"
+		 android:layout_height="40dp"
+		 android:paddingLeft="5dp"
+		 android:paddingTop="5dp"
+		 android:background="@drawable/bwhite"/>
+     
+     <TextView
+       	 android:id="@+id/tambah_ruangan"
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/ogold"
+         android:textColor="@color/red"
+		 android:paddingLeft="10dp"
+         android:textSize="25sp"
+         android:layout_marginTop="5dp"
+ 		 android:layout_width="fill_parent"
+		 android:layout_height="40dp"
+         android:text="@string/tambah2" />
+          
+</LinearLayout>    
