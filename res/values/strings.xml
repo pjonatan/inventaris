@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Invent</string>
+    <string name="pilih">PILIH</string>
+    <string name="ruang">Ruang</string>
+    <string name="item">Iventaris</string>
+    <string name="d_ruang">Data Ruang</string>
+    <string name="t_ruang">Tambah Ruang</string>
+    <string name="t_item">Tambah Inventaris</string>
+    <string name="e_ruang">Edit Ruang</string>
+    <string name="en_ruang">Edit Nama Ruang</string>
+    <string name="cr_ruang">Cari Ruang</string>
+    <string name="menu1">Ruangan</string>
+    <string name="ed_ruang">Edit Data Ruangan</string>
+    <string name="e_item">Edit Inventaris</string>
+    <string name="nm_ruangan">Nama Ruangan</string>
+    <string name="nm_inventaris">Nama Inventaris</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="ubah">Ubah</string>
+    <string name="info">Keterangan</string>
+    <string name="hapus">Hapus</string>
+    <string name="simpan">Simpan</string>
+    <string name="tambah">Tambah</string>
+    <string name="tambah2">Tambah Inventaris ke Ruangan</string>
+    <string name="tambah3">Tambah Inventaris</string>
+    <string name="cari_ruang">Cari Ruangan</string>
+    <string name="cari_item">Cari Inventaris</string>
+    <string name="daftar">Daftar Inventaris</string>
+    
+</resources>

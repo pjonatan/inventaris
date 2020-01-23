@@ -1,1 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<resources>
+   
+		<color name="putih">#FFFFFF</color>    
+    	<color name="green">#50DD80</color>
+    	<color name="l_green">#A0FFB0</color>	    
+		<color name="gold">#ffd7aa</color>    
+		<color name="grey">#777777</color>
+		<color name="red">#ff0000</color>    
+				
+</resources>    
